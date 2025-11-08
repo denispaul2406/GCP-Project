@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RV University - Excellence in Education</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="description" content="RV University offers world-class education with diverse programs in Engineering, Business, Design, and more. Join a legacy of academic excellence." />
+    <meta name="author" content="RV University" />
+
+    <meta property="og:title" content="RV University - Excellence in Education" />
+    <meta property="og:description" content="Empowering minds, shaping futures. Explore undergraduate and postgraduate programs at RV University." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/university-logo.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@RVUniversity" />
+    <meta name="twitter:image" content="/university-logo.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Dialogflow CX Conversational Messenger (v1) -->
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+
+    <df-messenger
+      location="asia-south1"
+      project-id="gcp-project-477104"
+      agent-id="41343bd1-7c61-4d01-a4da-35a33e46dc58"
+      language-code="en"
+      max-query-length="-1"
+      environment="draft"
+    >
+      <df-messenger-chat-bubble
+        chat-title="RV-University-FAQ-Bot"
+      >
+      </df-messenger-chat-bubble>
+    </df-messenger>
+
+    <style>
+      df-messenger {
+        z-index: 999;
+        position: fixed;
+        --df-messenger-font-color: #000;
+        --df-messenger-font-family: Google Sans;
+        --df-messenger-chat-background: #f3f6fc;
+        --df-messenger-message-user-background: #d3e3fd;
+        --df-messenger-message-bot-background: #fff;
+        bottom: 16px;
+        right: 16px;
+      }
+    </style>
+  </body>
+</html>

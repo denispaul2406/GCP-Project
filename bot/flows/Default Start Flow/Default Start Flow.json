@@ -1,0 +1,160 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "178951a1-464e-4fe9-9c70-2a44004d13b2"
+  }, {
+    "intent": "admission.requirements",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "To apply for admission to RV University:\r\n\r\nRequired Documents:\r\n• 12th grade mark sheet (minimum 60%)\r\n• Transfer certificate\r\n• ID proof (Aadhar/Passport)\r\n• 2 passport photos\r\n• Entrance exam scores (JEE/CET for Engineering)\r\n\r\nApply online at: rvu.edu.in/admissions\r\nContact: +91-9513673778 / +91-8951179896\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "6decc28a-07aa-4082-a85d-54ca20cb554e"
+  }, {
+    "intent": "admission.deadlines",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Important Admission Dates 2025-26:\r\n\r\n📅 Application Opens: March 1, 2025\r\n📅 Application Deadline: June 30, 2025\r\n📅 Entrance Exam: July 15, 2025\r\n📅 Results Announcement: July 30, 2025\r\n📅 Classes Begin: August 15, 2025\r\n\r\nApply early to secure your seat!\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3edbb3e3-1524-40de-9fcc-b9c44cf45d95"
+  }, {
+    "intent": "entrance.exam",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "RV University accepts the following entrance exams:\r\n\r\nFor Engineering (B.Tech):\r\n• JEE Mains\r\n• Karnataka CET\r\n• University entrance test\r\n\r\nFor Management (MBA):\r\n• CAT / MAT / CMAT\r\n• University entrance test\r\n\r\nFor Other Programs:\r\n• Program-specific aptitude tests\r\n• Merit-based admission for some courses\r\n\r\nVisit admissions office for specific program requirements.\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "6e0a1af1-43a0-42ea-8acb-15b213715a3f"
+  }, {
+    "intent": "eligibility.criteria",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Eligibility Criteria by Program:\r\n\r\nB.Tech / B.Sc (Engineering):\r\n• 60% in 12th (Physics, Chemistry, Math)\r\n• Valid JEE/CET score\r\n\r\nBBA / B.Com:\r\n• 50% in 12th (any stream)\r\n\r\nDesign / Arts:\r\n• 50% in 12th + Portfolio review\r\n\r\nFor specific programs, contact: admissions@rvu.edu.in\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2f243163-8766-4ac4-9e82-fe6e19ac8b4f"
+  }, {
+    "intent": "application.process",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Application Process (5 Easy Steps):\r\n\r\n1️⃣ Visit: rvu.edu.in/apply\r\n2️⃣ Create account with email \u0026 phone\r\n3️⃣ Fill personal \u0026 academic details\r\n4️⃣ Upload required documents (PDF format)\r\n5️⃣ Pay application fee: ₹1,500 (online)\r\n\r\n✅ You'll receive confirmation email within 24 hours\r\n📱 Track application status in your portal\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9d509faa-d127-4cc7-a4dc-75f92144f95f"
+  }, {
+    "intent": "fees.structure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "RV University Fee Structure (Annual):\r\n\r\nEngineering (B.Tech):\r\n• CET Quota: ₹2,16,000\r\n• JEE Quota: ₹5,00,000\r\n• Management Quota: ₹9,00,000\r\n\r\nBusiness (BBA/B.Com):\r\n• BBA: ₹2,00,000\r\n• B.Com: ₹1,65,000\r\n\r\nComputer Science (B.Sc):\r\n• Data Science: ₹1,60,000\r\n• AIML: ₹1,60,000\r\n\r\nDesign (B.Design): ₹4,00,000\r\n\r\n*Fees exclude hostel, mess, and exam charges\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1ed69be2-c4ea-4e5a-8d66-da4d2ef45333"
+  }, {
+    "intent": "payment.options",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fee Payment Options:\r\n\r\n💳 Payment Methods:\r\n• Online (Credit/Debit card, UPI, Net Banking)\r\n• Demand Draft (in favor of RV University)\r\n• Bank transfer\r\n\r\n📅 Installment Options:\r\n• Option 1: Full payment (5% discount)\r\n• Option 2: Two installments (June + December)\r\n• Option 3: Three installments (June + Oct + Feb)\r\n\r\n💰 No-cost EMI available for eligible students through partner banks.\r\n\r\nContact finance@rvu.edu.in for assistance.\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "0f52175f-b605-4d42-8746-7dde44feb4cc"
+  }, {
+    "intent": "scholarships",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Scholarship Opportunities at RV University:\r\n\r\n🏆 Merit Scholarships:\r\n• 90%+ in 12th: 50% tuition waiver\r\n• 85-90% in 12th: 25% tuition waiver\r\n• 80-85% in 12th: 10% tuition waiver\r\n\r\n💼 Need-Based Scholarships:\r\n• Up to 30% fee waiver for economically weaker sections\r\n• Application required with income proof\r\n\r\n🎯 Sports/Cultural Scholarships:\r\n• State/National level achievers: 20-40% waiver\r\n\r\n📝 Apply at: rvu.edu.in/scholarships\r\nDeadline: Within 15 days of admission\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d2eec771-d5fb-472d-9ca9-e03c6f12c7a9"
+  }, {
+    "intent": "hostel.fees",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hostel Fee Structure:\r\n\r\n🏠 Accommodation (Per Year):\r\n• Single occupancy: ₹1,50,000\r\n• Double occupancy: ₹1,00,000\r\n• Triple occupancy: ₹75,000\r\n\r\n🍽️ Mess Charges:\r\n• ₹45,000 per year (₹15,000/semester)\r\n• 3 meals daily + evening snacks\r\n\r\n✨ Facilities Included:\r\n• Wi-Fi, laundry, common room\r\n• 24/7 security, water, electricity\r\n• Gym, sports facilities\r\n\r\nOne-time refundable deposit: ₹10,000\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "627874e3-fccd-463f-b52a-b087a491b895"
+  }, {
+    "intent": "refund.policy",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Fee Refund Policy:\r\n\r\nBefore Semester Starts:\r\n• Within 15 days of admission: 90% refund\r\n• Within 30 days: 70% refund\r\n• After 30 days: 50% refund\r\n\r\nAfter Semester Starts:\r\n• Within 7 days: 40% refund\r\n• After 7 days: No refund\r\n\r\n⚠️ Application fee (₹1,500) is non-refundable\r\n⚠️ Hostel deposit is fully refundable\r\n\r\nProcess: Submit withdrawal form to admissions office\r\nRefund time: 30-45 working days\r\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4a0154ae-9436-49fe-ad17-dae619ab7654"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "28d3a059-e376-408d-8932-d6ced5cc60f6"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3a80f0a4-6476-4b0f-8544-a76ee3a7a7f5"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "customConfigKey": "8b22c73f-60bc-49d8-a762-9c8e578c58f6",
+    "languageCode": "en"
+  } ]
+}
